@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StarPizza</title>
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>StarPizza</h1>
+    </div>
+    <div class="image">
+       <p class="hidden">text</p>
+        <div class="ads">
+            <p id="new">NEW</p>
+        <p id="advertise">Pizza Milano<br>
+            bacon & chease</p>
+        </div>
+    </div>
+    <div class="order-box" onload="display()">
+        <div class="row">
+            <div class="item" id="deliveryLabel"><input type="radio" value="delivery" name="isDelivery" id="Delivery" class="nodisplay">
+        <label for="Delivery">Delivery</label>
+        </div>
+            <div class="item" id="collectionLabel"><input type="radio" value="colection" name="isDelivery" id="Colection" class="nodisplay">
+        <label for="Colection" >Collection</label></div>
+        </div>
+        <form action="#">
+        <input type="number" placeholder="Phone" id="phone">
+        <input type="submit" value="Order Now" class="pushButton">
+        </form>
+    </div>
+    <div class="lower-page">
+        <a href="">
+        <div class="menu-btn">
+            <p>View menu</p>
+        </div>
+    </a>
+    <div class="message">
+        <p>We can deliver food for your lunch break if your order at least 2 hours before delivery.</p>
+    </div>
+    <div class="footer">
+        <div class="flex-container">
+            <div class="flex-item">
+                <h3>About US</h3>
+            </div>
+            <div class="flex-item">
+                <h3>Help&Service</h3>
+                <p>Contact US</p>
+                <p>Opening Hours</p>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/main.js"></script>
+</body></html>

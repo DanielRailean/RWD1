@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff66cc 100%);
+    color: white;
+    
+}
+ol { list-style-position:inside; padding:0; }
+ul { list-style-position:inside; padding:0; }

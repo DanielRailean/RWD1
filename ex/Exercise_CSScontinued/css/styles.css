@@ -1,0 +1,52 @@
+body {
+    background-color: greenyellow;
+}
+
+.animal_main {
+    height: 150px;
+    float:left;
+}
+.animal_main img{
+    widows: 100%;;
+}
+
+.animal_card {
+    width: 200px;  
+}
+p{
+
+}
+div{
+}
+.item{
+    float:left;
+    width: 49%;
+    padding:0;
+    margin:auto;
+    border: 5px dashed black;
+    overflow:   auto;
+}
+.row{
+    overflow: auto;
+}
+.color1{
+    border: 10px dashed red;
+        float:left;
+
+}
+.color2{
+    border: 10px dashed blue;
+}
+.color3{
+    border: 10px dashed yellow;
+}
+.color4{
+    border: 10px dashed green;
+}
+.color5{
+    border: 10px dashed orange;
+}
+.animals{
+    float:left;
+    overflow: hidden
+}

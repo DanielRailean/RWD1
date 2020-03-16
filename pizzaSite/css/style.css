@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+*{
+/*    text-align: center;*/
+    margin:0;
+}
+/*
+div{
+    border : 2px dotted red;
+}
+*/
+body{
+    color: rgba(255,17,0,0.8);
+    font-family: 'Spartan', sans-serif;
+}
+a{
+    text-decoration: none;
+    margin:auto;
+    color:white
+}
+.flex-container{
+    display:flex;      
+    justify-content: space-around;
+
+}
+.flex-item{
+    display: block;
+}
+.header{
+    padding: 25px;
+    font-size: 1.2rem;
+}
+.footer{
+    background-color: rgba(112,112,112,0.37);
+}
+#new{
+    background-color: rgba(255,17,0,0.8); 
+    color: white;
+    margin-bottom: 0;
+    padding: 10px;
+    width: 50px;
+}
+#advertise{
+    background-color: rgba(255,255,255,0.43);
+    margin-top:0;
+    padding: 10px;
+    width: 150px;
+}
+#underMain{
+    
+}
+.image{
+    background-image: url(../images/main.jpg);
+    height: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ads{
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+.hidden{
+    visibility: hidden;
+}
+.nodisplay{
+    display: block;
+    margin:0;
+    padding:0;
+    width: 1px;
+    height:1px;
+}
+.order-box{
+    width:300px;
+
+    position:relative;
+    bottom:100px;
+    background-color: rgba(255,255,255);
+    margin:auto;
+    font-size: 1.6rem;
+    height: 170px;
+    text-align: center;
+    border: 1px solid rgba(112,112,112,0.3);
+
+}
+.menu-btn{
+    margin:auto;
+    height: 40px;
+    padding-top: 20px;
+    background-color: rgba(255,17,0,0.8); 
+    width: 300px;
+    text-align: center;
+    font-size:1.3rem;
+    border-radius: 30px;
+}
+.message{
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 30px;
+    border: 2px dashed rgba(255,17,0,0.8);
+}
+input{
+    margin-top: 30px;
+    height: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    
+}
+.pushButton{
+    position:relative;
+    right: 7px;
+    background-color: #52A73E;
+    color:white;
+    border:none;
+    height: 55px;
+    width: 110px;
+    bottom:1px;
+}
+#phone{
+    padding-left: 15px;
+    width: 110px;
+    color:white;
+    border: 2px solid rgba(112,112,112,0.1);}
+::placeholder{
+    color:rgba(112,112,112,0.37);
+}
+.footer{
+    padding:20px;
+    position:relative;
+    top:70px
+}
+
+.row{
+    display:flex;
+}
+.item{
+    width: 49%;
+    height: 30px;
+    display: block;
+    background-color: rgba(255,17,0,0.8);
+    color:white;
+    padding: 10px ;
+    
+}
+#deliveryLabel{
+    background-color: white;
+    color:red;
+}
+.lower-page{
+    position:relative;
+    bottom:70px
+}
